@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Insights - Artificial Intelligence Blog by Viraj Kulkarni</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>AI Insights</h1>
+                    <span class="author">by Viraj Kulkarni</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#articles" class="nav-link">Articles</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Exploring the Future of Artificial Intelligence</h1>
+                <p>Deep insights into AI, machine learning, and the technologies shaping our tomorrow</p>
+                <a href="#articles" class="cta-button">Read Articles</a>
+            </div>
+        </section>
+
+        <section id="articles" class="articles-section">
+            <div class="container">
+                <h2 class="section-title">Latest Articles</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Articles</button>
+                    <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+                    <button class="filter-btn" data-filter="ethics">AI Ethics</button>
+                    <button class="filter-btn" data-filter="future">Future Tech</button>
+                </div>
+                <div class="articles-grid">
+                    <article class="article-card" data-category="machine-learning">
+                        <div class="article-image">
+                            <img src="https://cdn.the-scientist.com/assets/articleNo/71687/aImg/52292/62dc0501-8dda-4bd7-9ba9-fa1a9b8c7cb4-l.jpg" alt="Neural Networks">
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">Machine Learning</span>
+                            <h3>The Evolution of Neural Networks: From Perceptrons to Deep Learning</h3>
+                            <p>Discover how neural networks have evolved from simple perceptrons to complex deep learning architectures that power modern AI systems.</p>
+                            <div class="article-meta">
+                                <span class="date">January 15, 2026</span>
+                            </div>
+                            <button class="read-more" data-article="1">Read More</button>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="ethics">
+                        <div class="article-image">
+                            <img src="https://ethicsunwrapped.utexas.edu/wp-content/uploads/2024/09/AI-Ethics_Thumbnail.png" alt="AI Ethics">
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">AI Ethics</span>
+                            <h3>Ethical Considerations in AI Development: Bias, Fairness, and Accountability</h3>
+                            <p>Exploring the critical ethical challenges in AI development and how we can build more fair and accountable artificial intelligence systems.</p>
+                            <div class="article-meta">
+                                <span class="date">February 10, 2026</span>
+                            </div>
+                            <button class="read-more" data-article="2">Read More</button>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="future">
+                        <div class="article-image">
+                            <img src="https://yourtechdiet.com/wp-content/uploads/2025/01/AGI-1.jpg" alt="AGI">
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">Future Tech</span>
+                            <h3>The Path to Artificial General Intelligence: Challenges and Possibilities</h3>
+                            <p>Understanding the journey toward AGI, the technical hurdles we face, and what it means for humanity's future.</p>
+                            <div class="article-meta">
+                                <span class="date">January 5, 2026</span>
+                            </div>
+                            <button class="read-more" data-article="3">Read More</button>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="machine-learning">
+                        <div class="article-image">
+                            <img src="https://t3.ftcdn.net/jpg/05/89/38/86/360_F_589388610_Yiv2GLBAfVElYOxQTmLnASN7KQTn5Dl3.jpg" alt="NLP">
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">Machine Learning</span>
+                            <h3>Transformers and Large Language Models: Revolutionizing Natural Language Processing</h3>
+                            <p>How transformer architectures and LLMs have transformed our ability to understand and generate human language.</p>
+                            <div class="article-meta">
+                                <span class="date">February 8, 2026</span>
+                            </div>
+                            <button class="read-more" data-article="4">Read More</button>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="ethics">
+                        <div class="article-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwDQocpp6HTGKqZUWAxHL_6clqqc9WeCCr6A&s" alt="Privacy">
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">AI Ethics</span>
+                            <h3>Privacy in the Age of AI: Balancing Innovation with Personal Data Protection</h3>
+                            <p>Navigating the complex landscape of data privacy as AI systems become increasingly integrated into our daily lives.</p>
+                            <div class="article-meta">
+                                <span class="date">February 2, 2026</span>
+                            </div>
+                            <button class="read-more" data-article="5">Read More</button>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="future">
+                        <div class="article-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcv1n2DGnj9Hxb3GNnzugZRKESnRvX1vPpZQ&s" alt="Quantum AI">
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">Future Tech</span>
+                            <h3>Quantum Computing and AI: The Next Frontier in Computational Intelligence</h3>
+                            <p>Exploring how quantum computing could revolutionize AI capabilities and solve problems currently beyond classical computers.</p>
+                            <div class="article-meta">
+                                <span class="date">January 5, 2026</span>
+                            </div>
+                            <button class="read-more" data-article="6">Read More</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <h2>About the Author</h2>
+                    <div class="author-info">
+                        <div class="author-text">
+                            <h3>Viraj Kulkarni</h3>
+                            <p>Through this blog, I share insights, analysis, and perspectives on the latest AI trends, breakthrough technologies, and their impact on our world.</p>
+                            <div class="author-links">
+                                <a href="https://www.linkedin.com/in/viraj-kulkarni-3808b33ab/" class="social-link">LinkedIn</a>
+                                <a href="https://github.com/virajkulkarni15" class="social-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="article-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AI Insights by Viraj Kulkarni. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
